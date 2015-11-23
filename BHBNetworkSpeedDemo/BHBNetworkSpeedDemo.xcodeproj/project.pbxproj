@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F74E107C1BFF192B00923DE3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74E107B1BFF192B00923DE3 /* SystemConfiguration.framework */; };
+		F767E9221BFDA52400D0723D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F767E9211BFDA52400D0723D /* main.m */; };
+		F767E9251BFDA52400D0723D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F767E9241BFDA52400D0723D /* AppDelegate.m */; };
+		F767E92D1BFDA52400D0723D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F767E92C1BFDA52400D0723D /* Assets.xcassets */; };
+		F767E9301BFDA52400D0723D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F767E92E1BFDA52400D0723D /* LaunchScreen.storyboard */; };
+		F767E93B1BFDA52400D0723D /* BHBNetworkSpeedDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F767E93A1BFDA52400D0723D /* BHBNetworkSpeedDemoTests.m */; };
+		F767E9461BFDA52400D0723D /* BHBNetworkSpeedDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F767E9451BFDA52400D0723D /* BHBNetworkSpeedDemoUITests.m */; };
+		F767E9561BFDA56200D0723D /* BHBNetworkSpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = F767E9551BFDA56200D0723D /* BHBNetworkSpeed.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F767E9371BFDA52400D0723D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F767E9151BFDA52400D0723D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F767E91C1BFDA52400D0723D;
+			remoteInfo = BHBNetworkSpeedDemo;
+		};
+		F767E9421BFDA52400D0723D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F767E9151BFDA52400D0723D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F767E91C1BFDA52400D0723D;
+			remoteInfo = BHBNetworkSpeedDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F74E107B1BFF192B00923DE3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F767E91D1BFDA52400D0723D /* BHBNetworkSpeedDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHBNetworkSpeedDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F767E9211BFDA52400D0723D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F767E9231BFDA52400D0723D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F767E9241BFDA52400D0723D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F767E92C1BFDA52400D0723D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F767E92F1BFDA52400D0723D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F767E9311BFDA52400D0723D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F767E9361BFDA52400D0723D /* BHBNetworkSpeedDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BHBNetworkSpeedDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F767E93A1BFDA52400D0723D /* BHBNetworkSpeedDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHBNetworkSpeedDemoTests.m; sourceTree = "<group>"; };
+		F767E93C1BFDA52400D0723D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F767E9411BFDA52400D0723D /* BHBNetworkSpeedDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BHBNetworkSpeedDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F767E9451BFDA52400D0723D /* BHBNetworkSpeedDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHBNetworkSpeedDemoUITests.m; sourceTree = "<group>"; };
+		F767E9471BFDA52400D0723D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F767E9541BFDA56200D0723D /* BHBNetworkSpeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBNetworkSpeed.h; sourceTree = "<group>"; };
+		F767E9551BFDA56200D0723D /* BHBNetworkSpeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBNetworkSpeed.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F767E91A1BFDA52400D0723D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74E107C1BFF192B00923DE3 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F767E9331BFDA52400D0723D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F767E93E1BFDA52400D0723D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F767E9141BFDA52400D0723D = {
+			isa = PBXGroup;
+			children = (
+				F74E107B1BFF192B00923DE3 /* SystemConfiguration.framework */,
+				F767E91F1BFDA52400D0723D /* BHBNetworkSpeedDemo */,
+				F767E9391BFDA52400D0723D /* BHBNetworkSpeedDemoTests */,
+				F767E9441BFDA52400D0723D /* BHBNetworkSpeedDemoUITests */,
+				F767E91E1BFDA52400D0723D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F767E91E1BFDA52400D0723D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F767E91D1BFDA52400D0723D /* BHBNetworkSpeedDemo.app */,
+				F767E9361BFDA52400D0723D /* BHBNetworkSpeedDemoTests.xctest */,
+				F767E9411BFDA52400D0723D /* BHBNetworkSpeedDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F767E91F1BFDA52400D0723D /* BHBNetworkSpeedDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F767E9531BFDA54F00D0723D /* BHBNetworkSpeed */,
+				F767E9231BFDA52400D0723D /* AppDelegate.h */,
+				F767E9241BFDA52400D0723D /* AppDelegate.m */,
+				F767E92C1BFDA52400D0723D /* Assets.xcassets */,
+				F767E92E1BFDA52400D0723D /* LaunchScreen.storyboard */,
+				F767E9311BFDA52400D0723D /* Info.plist */,
+				F767E9201BFDA52400D0723D /* Supporting Files */,
+			);
+			path = BHBNetworkSpeedDemo;
+			sourceTree = "<group>";
+		};
+		F767E9201BFDA52400D0723D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F767E9211BFDA52400D0723D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F767E9391BFDA52400D0723D /* BHBNetworkSpeedDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F767E93A1BFDA52400D0723D /* BHBNetworkSpeedDemoTests.m */,
+				F767E93C1BFDA52400D0723D /* Info.plist */,
+			);
+			path = BHBNetworkSpeedDemoTests;
+			sourceTree = "<group>";
+		};
+		F767E9441BFDA52400D0723D /* BHBNetworkSpeedDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F767E9451BFDA52400D0723D /* BHBNetworkSpeedDemoUITests.m */,
+				F767E9471BFDA52400D0723D /* Info.plist */,
+			);
+			path = BHBNetworkSpeedDemoUITests;
+			sourceTree = "<group>";
+		};
+		F767E9531BFDA54F00D0723D /* BHBNetworkSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				F767E9541BFDA56200D0723D /* BHBNetworkSpeed.h */,
+				F767E9551BFDA56200D0723D /* BHBNetworkSpeed.m */,
+			);
+			path = BHBNetworkSpeed;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F767E91C1BFDA52400D0723D /* BHBNetworkSpeedDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F767E94A1BFDA52400D0723D /* Build configuration list for PBXNativeTarget "BHBNetworkSpeedDemo" */;
+			buildPhases = (
+				F767E9191BFDA52400D0723D /* Sources */,
+				F767E91A1BFDA52400D0723D /* Frameworks */,
+				F767E91B1BFDA52400D0723D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BHBNetworkSpeedDemo;
+			productName = BHBNetworkSpeedDemo;
+			productReference = F767E91D1BFDA52400D0723D /* BHBNetworkSpeedDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F767E9351BFDA52400D0723D /* BHBNetworkSpeedDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F767E94D1BFDA52400D0723D /* Build configuration list for PBXNativeTarget "BHBNetworkSpeedDemoTests" */;
+			buildPhases = (
+				F767E9321BFDA52400D0723D /* Sources */,
+				F767E9331BFDA52400D0723D /* Frameworks */,
+				F767E9341BFDA52400D0723D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F767E9381BFDA52400D0723D /* PBXTargetDependency */,
+			);
+			name = BHBNetworkSpeedDemoTests;
+			productName = BHBNetworkSpeedDemoTests;
+			productReference = F767E9361BFDA52400D0723D /* BHBNetworkSpeedDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F767E9401BFDA52400D0723D /* BHBNetworkSpeedDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F767E9501BFDA52400D0723D /* Build configuration list for PBXNativeTarget "BHBNetworkSpeedDemoUITests" */;
+			buildPhases = (
+				F767E93D1BFDA52400D0723D /* Sources */,
+				F767E93E1BFDA52400D0723D /* Frameworks */,
+				F767E93F1BFDA52400D0723D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F767E9431BFDA52400D0723D /* PBXTargetDependency */,
+			);
+			name = BHBNetworkSpeedDemoUITests;
+			productName = BHBNetworkSpeedDemoUITests;
+			productReference = F767E9411BFDA52400D0723D /* BHBNetworkSpeedDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F767E9151BFDA52400D0723D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = bihongbo;
+				TargetAttributes = {
+					F767E91C1BFDA52400D0723D = {
+						CreatedOnToolsVersion = 7.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					F767E9351BFDA52400D0723D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F767E91C1BFDA52400D0723D;
+					};
+					F767E9401BFDA52400D0723D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F767E91C1BFDA52400D0723D;
+					};
+				};
+			};
+			buildConfigurationList = F767E9181BFDA52400D0723D /* Build configuration list for PBXProject "BHBNetworkSpeedDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F767E9141BFDA52400D0723D;
+			productRefGroup = F767E91E1BFDA52400D0723D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F767E91C1BFDA52400D0723D /* BHBNetworkSpeedDemo */,
+				F767E9351BFDA52400D0723D /* BHBNetworkSpeedDemoTests */,
+				F767E9401BFDA52400D0723D /* BHBNetworkSpeedDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F767E91B1BFDA52400D0723D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F767E9301BFDA52400D0723D /* LaunchScreen.storyboard in Resources */,
+				F767E92D1BFDA52400D0723D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F767E9341BFDA52400D0723D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F767E93F1BFDA52400D0723D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F767E9191BFDA52400D0723D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F767E9251BFDA52400D0723D /* AppDelegate.m in Sources */,
+				F767E9221BFDA52400D0723D /* main.m in Sources */,
+				F767E9561BFDA56200D0723D /* BHBNetworkSpeed.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F767E9321BFDA52400D0723D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F767E93B1BFDA52400D0723D /* BHBNetworkSpeedDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F767E93D1BFDA52400D0723D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F767E9461BFDA52400D0723D /* BHBNetworkSpeedDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F767E9381BFDA52400D0723D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F767E91C1BFDA52400D0723D /* BHBNetworkSpeedDemo */;
+			targetProxy = F767E9371BFDA52400D0723D /* PBXContainerItemProxy */;
+		};
+		F767E9431BFDA52400D0723D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F767E91C1BFDA52400D0723D /* BHBNetworkSpeedDemo */;
+			targetProxy = F767E9421BFDA52400D0723D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F767E92E1BFDA52400D0723D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F767E92F1BFDA52400D0723D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F767E9481BFDA52400D0723D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F767E9491BFDA52400D0723D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F767E94B1BFDA52400D0723D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BHBNetworkSpeedDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.BHBNetworkSpeedDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F767E94C1BFDA52400D0723D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BHBNetworkSpeedDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.BHBNetworkSpeedDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F767E94E1BFDA52400D0723D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BHBNetworkSpeedDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.BHBNetworkSpeedDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BHBNetworkSpeedDemo.app/BHBNetworkSpeedDemo";
+			};
+			name = Debug;
+		};
+		F767E94F1BFDA52400D0723D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BHBNetworkSpeedDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.BHBNetworkSpeedDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BHBNetworkSpeedDemo.app/BHBNetworkSpeedDemo";
+			};
+			name = Release;
+		};
+		F767E9511BFDA52400D0723D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BHBNetworkSpeedDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.BHBNetworkSpeedDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BHBNetworkSpeedDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F767E9521BFDA52400D0723D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BHBNetworkSpeedDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.BHBNetworkSpeedDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BHBNetworkSpeedDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F767E9181BFDA52400D0723D /* Build configuration list for PBXProject "BHBNetworkSpeedDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F767E9481BFDA52400D0723D /* Debug */,
+				F767E9491BFDA52400D0723D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F767E94A1BFDA52400D0723D /* Build configuration list for PBXNativeTarget "BHBNetworkSpeedDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F767E94B1BFDA52400D0723D /* Debug */,
+				F767E94C1BFDA52400D0723D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F767E94D1BFDA52400D0723D /* Build configuration list for PBXNativeTarget "BHBNetworkSpeedDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F767E94E1BFDA52400D0723D /* Debug */,
+				F767E94F1BFDA52400D0723D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F767E9501BFDA52400D0723D /* Build configuration list for PBXNativeTarget "BHBNetworkSpeedDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F767E9511BFDA52400D0723D /* Debug */,
+				F767E9521BFDA52400D0723D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F767E9151BFDA52400D0723D /* Project object */;
+}
