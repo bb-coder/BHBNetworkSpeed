@@ -83,6 +83,8 @@ static BHBNetworkSpeed * instance = nil;
 }
 
 - (void)startMonitoringNetworkSpeed{
+    if(_timer)
+        [self stopMonitoringNetworkSpeed];
     _timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(netSpeedNotification) userInfo:nil repeats:YES];
 }
 
