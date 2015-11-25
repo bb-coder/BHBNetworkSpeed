@@ -136,7 +136,7 @@ static BHBNetworkSpeed * instance = nil;
     uint32_t wwanIBytes = 0;
     uint32_t wwanOBytes = 0;
     uint32_t wwanFlow   = 0;
-    struct timeval32 time;
+//    struct timeval32 time;
     
     for (ifa = ifa_list; ifa; ifa = ifa->ifa_next)
     {
@@ -157,7 +157,7 @@ static BHBNetworkSpeed * instance = nil;
             iBytes += if_data->ifi_ibytes;
             oBytes += if_data->ifi_obytes;
             allFlow = iBytes + oBytes;
-            time = if_data->ifi_lastchange;
+//            time = if_data->ifi_lastchange;
         }
         
         //wifi flow
